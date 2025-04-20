@@ -1,0 +1,17 @@
+Developer Information
+-------------------
+
+Name: Talha Javed
+Role: Frontend Developer
+Project: Modern Notepad Application
+
+Development Details:
+• Developed a responsive note-taking application using HTML, CSS, and JavaScript
+• Implemented features like note creation, editing, deletion, and search functionality
+• Added keyboard shortcuts for better accessibility
+• Created a modern UI with smooth animations and transitions
+• Integrated local storage for data persistence
+• Designed with mobile-first approach for cross-device compatibility
+
+Contact: [Your contact information]
+Date: [Current date] 
