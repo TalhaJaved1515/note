@@ -560,6 +560,62 @@
                 overflow: scroll;
             }
         }
+
+        /* Custom Scrollbar Styles */
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+            border-radius: 0px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: transparent;
+            border-radius: 0px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: transparent;
+        }
+
+        /* Apply to specific elements */
+        #usageInfoModalContent::-webkit-scrollbar,
+        .note-card::-webkit-scrollbar,
+        .modal-content::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+            background: transparent;
+        }
+
+        #usageInfoModalContent::-webkit-scrollbar-track,
+        .note-card::-webkit-scrollbar-track,
+        .modal-content::-webkit-scrollbar-track {
+            background: transparent;
+            border-radius: 0px;
+        }
+
+        #usageInfoModalContent::-webkit-scrollbar-thumb,
+        .note-card::-webkit-scrollbar-thumb,
+        .modal-content::-webkit-scrollbar-thumb {
+            background: transparent;
+            border-radius: 0px;
+        }
+
+        #usageInfoModalContent::-webkit-scrollbar-thumb:hover,
+        .note-card::-webkit-scrollbar-thumb:hover,
+        .modal-content::-webkit-scrollbar-thumb:hover {
+            background: transparent;
+        }
+
+        /* Firefox scrollbar */
+        * {
+            scrollbar-width: none;
+            scrollbar-color: transparent transparent;
+        }
     </style>
 </head>
 
