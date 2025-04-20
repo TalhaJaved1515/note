@@ -13,5 +13,5 @@ Development Details:
 • Integrated local storage for data persistence
 • Designed with mobile-first approach for cross-device compatibility
 
-Contact: [Your contact information]
-Date: [Current date] 
+Contact: [https://github.com/TalhaJaved1515]
+Date: [20/04/2025] 
