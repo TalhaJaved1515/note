@@ -289,16 +289,10 @@
         #usageInfoModalContent {
                 scroll-behavior: smooth;
               overflow: scroll;
+              
 
             }
-        @media only screen and (max-height: 516px) {
-            #usageInfoModalContent {
-                width: 100%;
-                height: 100%;
-                overflow: scroll;
-
-            }
-        }
+        
 
         /* Add Note Button */
         #addNoteBtn {
@@ -531,6 +525,35 @@
         #usageInfoModal kbd:hover {
             transform: translateY(-2px);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #usageInfoModalContent {
+            width: min(90%, 800px);
+            max-height: 90vh;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            margin: 1rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        @media only screen and (max-width: 768px) {
+            #usageInfoModalContent {
+                width: 95%;
+                margin: 0.5rem;
+                padding: 1rem;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            #usageInfoModalContent {
+                width: 100%;
+                margin: 0;
+                border-radius: 20px;
+                max-height: 100vh;
+            }
         }
     </style>
 </head>
