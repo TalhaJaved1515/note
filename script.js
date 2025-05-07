@@ -10,6 +10,8 @@
  const closeModal = document.getElementById('closeModal');
  const cancelNote = document.getElementById('cancelNote');
 
+if (confirm("Reload the Page?")) {
+
  // Notes array to store notes
  let notes = JSON.parse(localStorage.getItem('notes')) || [];
 
@@ -294,3 +296,7 @@
          usageInfoModal.classList.remove('hidden');
      }
  })
+}
+else {
+    console.log("Reload cancelled by user");
+}
