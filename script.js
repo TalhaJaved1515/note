@@ -10,10 +10,8 @@
  const closeModal = document.getElementById('closeModal');
  const cancelNote = document.getElementById('cancelNote');
 
- alert("You can Save your Notes");
-
- // Notes array to store notes
- let notes = JSON.parse(localStorage.getItem('notes')) || [];
+if (confirm("You Can Save Your Note on This Devioand Application")) {
+    let notes = JSON.parse(localStorage.getItem('notes')) || [];
 
  // Event Listeners
  addNoteBtn.addEventListener('click', () => openModal());
@@ -296,3 +294,10 @@
          usageInfoModal.classList.remove('hidden');
      }
  })
+
+}
+else{
+    console.log('Canceled')
+}
+ // Notes array to store notes
+ 
